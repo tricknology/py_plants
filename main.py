@@ -1,8 +1,10 @@
 import RPi.GPIO as GPIO
 import time
 
+
 def main():
     set_gpio()
+
 
 def set_gpio():
     GPIO.setmode(GPIO.BCM)
@@ -19,8 +21,5 @@ def set_gpio():
         GPIO.output(18, GPIO.LOW)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
