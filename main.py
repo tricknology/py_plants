@@ -17,6 +17,7 @@ def set_gpio():
         time.sleep(1)
         print("LED off")
         GPIO.output(18, GPIO.LOW)
+        time.sleep(1)
 
 
 if __name__ == '__main__':
