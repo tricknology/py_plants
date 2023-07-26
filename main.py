@@ -12,12 +12,10 @@ def set_gpio():
     GPIO.setup(18, GPIO.OUT)
 
     for i in range(0, 2000):
-        print
-        "LED on"
+        print("LED on")
         GPIO.output(18, GPIO.HIGH)
         time.sleep(1)
-        print
-        "LED off"
+        print("LED off")
         GPIO.output(18, GPIO.LOW)
 
 
